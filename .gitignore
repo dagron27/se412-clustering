@@ -76,7 +76,12 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+*.ipynb.metadata
+.ipynb_checkpoints/
+content/drive/
+*.pkl
+*.h5
+*.log
 
 # IPython
 profile_default/
